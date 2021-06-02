@@ -1,0 +1,31 @@
+{
+    "type":"MCU",
+    "name":"RTL8195",
+    "title": "Realtek RTL8195 MCU",
+    "description":"Realtek Cortex-M3 MCU",
+    "Core": {
+        "type":"Cortex-M3",
+        "Freq":550,
+        "DMIPS": 1177,
+        "CoreMark": 2778
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/RTL8195-value-line.htm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/RTL8195.git"
+    },
+    "version":"1.0.0",
+    "series":["RTL8195Z","RTL8195V","RTL8195R","RTL8195C","RTL8195T"],
+    "package":["LQFP144","LQFP100","LQFP64","LQFP48","QFN36"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
